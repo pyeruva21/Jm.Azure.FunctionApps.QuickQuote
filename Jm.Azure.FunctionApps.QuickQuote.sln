@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jm.Azure.FunctionApps.QuickQuote", "Jm.Azure.FunctionApps.QuickQuote\Jm.Azure.FunctionApps.QuickQuote.csproj", "{CCD9AE08-5826-48FD-83DD-CF28BF260428}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Jm.Azure.FunctionApps.QuickQuote.Functions", "Jm.Azure.FunctionApps.QuickQuote\Jm.Azure.FunctionApps.QuickQuote.Functions.csproj", "{CCD9AE08-5826-48FD-83DD-CF28BF260428}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jm.Azure.FunctionApps.QuickQuote.Core", "Jm.Azure.FunctionApps.QuickQuote.Core\Jm.Azure.FunctionApps.QuickQuote.Core.csproj", "{4C3E19B1-93DE-4507-A132-A3582DE98BC4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Jm.Azure.FunctionApps.QuickQuote.Integration", "Jm.Azure.FunctionApps.QuickQuote.Integration\Jm.Azure.FunctionApps.QuickQuote.Integration.csproj", "{96854A5C-528B-4875-9C7E-AA2D5E28D47C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{CCD9AE08-5826-48FD-83DD-CF28BF260428}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCD9AE08-5826-48FD-83DD-CF28BF260428}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CCD9AE08-5826-48FD-83DD-CF28BF260428}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4C3E19B1-93DE-4507-A132-A3582DE98BC4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4C3E19B1-93DE-4507-A132-A3582DE98BC4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4C3E19B1-93DE-4507-A132-A3582DE98BC4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4C3E19B1-93DE-4507-A132-A3582DE98BC4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96854A5C-528B-4875-9C7E-AA2D5E28D47C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96854A5C-528B-4875-9C7E-AA2D5E28D47C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96854A5C-528B-4875-9C7E-AA2D5E28D47C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96854A5C-528B-4875-9C7E-AA2D5E28D47C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
